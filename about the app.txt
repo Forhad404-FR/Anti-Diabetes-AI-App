@@ -1,0 +1,161 @@
+PHASE-1 BUILD ORDER (SERIAL APPROACH)
+🔴 STEP 1 — App Entry Point (FOUNDATION)
+Start with these files (in this exact order):
+1️⃣ lib/main.dart
+
+Purpose: App entry point
+
+runApp()
+
+call MyApp
+
+👉 This is ALWAYS first.
+
+2️⃣ lib/app/app.dart
+
+Purpose:
+
+MaterialApp
+
+theme
+
+routes
+
+initialRoute
+
+3️⃣ lib/app/app_routes.dart
+
+Purpose:
+
+Central place for route names
+
+Avoid hard-coded strings later
+
+4️⃣ lib/app/app_theme.dart
+
+Purpose:
+
+Colors
+
+fonts
+
+light/dark theme (basic)
+
+📌 After Step 1–4 → your app launches cleanly.
+
+🟠 STEP 2 — Navigation Shell
+5️⃣ lib/navigation/bottom_nav_page.dart
+
+Purpose:
+
+BottomNavigationBar
+
+5 tabs:
+
+Dashboard
+
+Track
+
+Doctors
+
+AI Chat
+
+Profile
+
+📌 This file becomes the container for most pages.
+
+🟡 STEP 3 — Splash & Onboarding (FIRST UI)
+6️⃣ features/splash/splash_page.dart
+
+Why now?
+
+Simple UI
+
+No backend
+
+Boosts confidence
+
+7️⃣ features/splash/onboarding_page.dart
+
+3 pages
+
+Button → Login / Signup
+
+🟢 STEP 4 — Authentication Pages
+
+Build auth before dashboard, always.
+
+Order:
+
+8️⃣ login_page.dart
+9️⃣ signup_page.dart
+🔟 forgot_password_page.dart
+1️⃣1️⃣ otp_page.dart
+1️⃣2️⃣ complete_profile_page.dart
+
+📌 For now:
+
+UI only
+
+Fake submit buttons
+
+No API calls
+
+🔵 STEP 5 — Dashboard (CORE SCREEN)
+1️⃣3️⃣ dashboard_page.dart
+
+Then its widgets:
+
+summary_card.dart
+
+health_score_card.dart
+
+ai_tip_card.dart
+
+📌 This is where your app starts looking impressive.
+
+🟣 STEP 6 — Track Section (CRUD PROOF)
+1️⃣4️⃣ track_page.dart (tabs: Glucose / Diet / Exercise)
+
+Then build in this order:
+
+Glucose
+
+1️⃣5️⃣ add_glucose_page.dart
+1️⃣6️⃣ glucose_history_page.dart
+1️⃣7️⃣ glucose_chart_page.dart
+
+Diet
+
+1️⃣8️⃣ add_meal_page.dart
+1️⃣9️⃣ food_search_page.dart
+2️⃣0️⃣ calorie_summary_page.dart
+
+Exercise
+
+2️⃣1️⃣ add_exercise_page.dart
+2️⃣2️⃣ exercise_history_page.dart
+2️⃣3️⃣ weekly_activity_page.dart
+
+🟤 STEP 7 — Doctors (Simple but Real-World)
+
+2️⃣4️⃣ doctor_category_page.dart
+2️⃣5️⃣ doctor_list_page.dart
+2️⃣6️⃣ doctor_profile_page.dart
+2️⃣7️⃣ doctor_chat_page.dart (text UI only)
+
+⚫ STEP 8 — AI Chat (Portfolio Booster)
+
+2️⃣8️⃣ ai_chat_page.dart
+2️⃣9️⃣ message_bubble.dart
+3️⃣0️⃣ suggestion_chip.dart
+
+📌 Fake AI responses first
+📌 Real AI later via backend
+
+⚪ STEP 9 — Profile (Finish Strong)
+
+3️⃣1️⃣ profile_page.dart
+3️⃣2️⃣ edit_profile_page.dart
+3️⃣3️⃣ medical_info_page.dart
+3️⃣4️⃣ settings_page.dart
