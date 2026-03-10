@@ -41,3 +41,29 @@ flutter run
 5. The result helps users understand their health condition
 
 
+## 🤖 AI Model
+
+The diabetes prediction system uses a machine learning model trained on a medical dataset containing patient health indicators.
+
+### Dataset
+The dataset includes features such as:
+- Glucose Level
+- BMI
+- Age
+- Blood Pressure
+- Insulin Level
+- Skin Thickness
+
+### Model Workflow
+
+1. User enters health data
+2. Data is processed and validated
+3. The trained ML model analyzes the input
+4. The model predicts the probability of diabetes
+5. The result is displayed to the user inside the app
+
+### Future Improvements
+
+- Integration with real-time health devices
+- Cloud-based AI prediction API
+- Personalized health recommendations
