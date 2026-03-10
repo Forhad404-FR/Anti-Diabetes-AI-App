@@ -27,3 +27,17 @@ flutter pub get
 4. Run the app
 
 flutter run
+
+## 🚀 Usage
+
+1. Open the application
+2. Enter required health parameters such as:
+   - Glucose level
+   - BMI
+   - Age
+   - Blood pressure
+3. Submit the data
+4. The AI model analyzes the data and predicts diabetes risk
+5. The result helps users understand their health condition
+
+
