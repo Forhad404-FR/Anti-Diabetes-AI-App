@@ -6,80 +6,117 @@
 
 **Track. Improve. Live Better.**
 
-The Anti-Diabetes AI App is a modern, comprehensive mobile solution designed to help individuals manage diabetes through intelligent tracking, AI-driven insights, and easy access to medical experts.
+The Anti-Diabetes AI App is a modern mobile solution designed to help individuals monitor diabetes risk through intelligent tracking, AI-driven insights, and easy access to health information.
+
+---
+
+## 📌 Project Overview
+
+AntiDiabetes AI App is a mobile health application designed to help users monitor and manage diabetes risk using artificial intelligence.
+
+Users can input health data such as glucose level, BMI, age, blood pressure, and other medical indicators. The system analyzes this data using a trained machine learning model and predicts the probability of diabetes while providing helpful insights.
+
+---
+
+## 🎯 Purpose
+
+The goal of this project is to provide an accessible digital tool that helps people understand their diabetes risk early and encourages healthier lifestyle decisions.
+
+This project also demonstrates the integration of mobile development, machine learning, and health data analysis in a real-world application.
 
 ---
 
 ## ✨ Key Features
 
-- **📊 Comprehensive Tracking**: Log glucose levels, diet intake, and exercise routines with ease.
-- **🤖 AI Health Assistant**: Get personalized health tips and instant answers to your diabetes-related questions.
-- **🏥 Doctor Connect**: Browse medical specialists and book appointments directly through the app.
-- **📈 Insightful Analytics**: (Coming Soon) Visualize your health trends with beautiful, easy-to-read charts.
-- **🔐 Secure & Private**: Built with a focus on data privacy and future secure authentication.
+- **📊 Comprehensive Tracking** – Log glucose levels, diet intake, and exercise routines easily  
+- **🤖 AI Health Assistant** – Get health tips and answers to diabetes-related questions  
+- **🏥 Doctor Connect** – Browse medical specialists and connect with doctors  
+- **📈 Insightful Analytics** – (Coming Soon) Visualize health trends with charts  
+- **🔐 Secure & Private** – Built with focus on data privacy and secure design  
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Framework**: [Flutter](https://flutter.dev) (SDK ^3.11.0)
-- **Language**: [Dart](https://dart.dev)
-- **Architecture**: Feature-Driven Clean Architecture
-- **State Management**: StatefulWidget / setState (MVP Phase 1)
-- **Navigation**: Named Routes + Persistent Bottom Navigation
+- **Framework:** Flutter  
+- **Language:** Dart  
+- **Architecture:** Feature-Driven Clean Architecture  
+- **State Management:** StatefulWidget / setState (Phase 1)  
+- **Navigation:** Named Routes + Bottom Navigation  
 
 ---
 
-## 🚀 Quick Start
+## ⚙️ Installation
 
-To set up the project locally:
+Clone the repository:
 
-1.  **Meet the Requirements**: Check the [System Requirements](docs/setup/requirements.md).
-2.  **Install Flutter**: Follow our [Installation Guide](docs/setup/flutter-installation.md).
-3.  **Clone & Run**:
-    ```bash
-    git clone https://github.com/boniyeamincse/Anti-Diabetes-AI-App.git
-    cd Anti-Diabetes-AI-App/Anti_Diabetes/mobile_app
-    flutter pub get
-    flutter run
-    ```
-
----
-
-## 📂 Project Structure
-
-```text
-lib/
-├── app/            # App-wide config, themes, and routes
-├── core/           # Shared services, widgets, and constants
-├── features/       # Modular feature folders (Auth, Track, AI, etc.)
-└── navigation/     # Main bottom navigation shell
+```bash
+git clone https://github.com/Forhad404-FR/Anti-Diabetes-AI-App.git
+cd Anti-Diabetes-AI-App
+flutter pub get
+flutter run
 ```
+
+---
+
+## 🚀 Usage
+
+1. Open the application  
+2. Enter required health parameters such as:
+   - Glucose level
+   - BMI
+   - Age
+   - Blood pressure  
+3. Submit the data  
+4. The AI model analyzes the input  
+5. The app predicts diabetes risk and displays results  
+
+---
+
+## 🤖 AI Model
+
+The diabetes prediction system uses a machine learning model trained on a dataset containing medical indicators.
+
+### Dataset Features
+
+- Glucose Level  
+- BMI  
+- Age  
+- Blood Pressure  
+- Insulin Level  
+- Skin Thickness  
+
+### Prediction Workflow
+
+1. User enters health data  
+2. Data is processed and validated  
+3. The trained ML model analyzes the input  
+4. The model predicts diabetes probability  
+5. Results are displayed inside the mobile application  
 
 ---
 
 ## 📚 Documentation
 
-We maintain a comprehensive documentation system in the `docs/` folder:
+Detailed documentation is available inside the **docs/** folder.
 
-- **[Documentation Overview](docs/README.md)**
-- **[Documentation Index](docs/INDEX.md)**
-- **[Architecture Deep Dive](docs/architecture/app-architecture.md)**
-- **[Feature Breakdown](docs/modules/module-overview.md)**
-- **[Development Guidelines](docs/development/coding-standards.md)**
+- Documentation Overview  
+- Architecture Guide  
+- Installation Guide  
+- Development Guidelines  
 
 ---
 
 ## 🤝 Contributing
 
-We welcome open-source contributions! Please see our **[Contribution Guide](docs/development/contribution-guide.md)** and **[Branching Strategy](docs/development/branching-strategy.md)** to get started.
+Contributions are welcome. Developers can contribute by improving features, fixing bugs, or enhancing documentation.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details (if applicable).
+This project is licensed under the **MIT License**.
 
 ---
 
-Built with ❤️ for a healthier world.
+Built with ❤️ to promote better health through technology.
