@@ -77,10 +77,15 @@ This application solves these issues by providing:
 
 ## 🏗️ System Architecture
 
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="320" />
+</p>
 
-- Flutter handles UI & user interaction  
-- Backend processes logic and AI-based rules  
-- MongoDB stores user health data securely  
+📱 Flutter App │ ▼ 🌐 REST API Layer (Node.js + Express) │ ▼ 🧠 AI / Business Logic Engine │ ▼ 🗄️ MongoDB Database
+
+<p align="center">
+⚡ Data flows seamlessly from user → app → backend → intelligence layer → database storage
+</p>
 
 ---
 
