@@ -1,0 +1,72 @@
+//You will use this in:
+
+//Backend API testing (Postman / Thunder Client)
+//OR
+//Controller layer later
+// 1. USER SAMPLE DATA
+{
+  "name": "Rahim Ahmed",
+  "email": "rahim@example.com",
+  "password": "hashed_password_here",
+  "role": "patient",
+  "age": 35,
+  "gender": "male",
+  "height": 170,
+  "weight": 75,
+  "diabetesType": "Type 2"
+}
+// 2. GLUCOSE SAMPLE DATA
+{
+  "user": "USER_OBJECT_ID",
+  "glucoseLevel": 140,
+  "measurementType": "fasting",
+  "notes": "Morning reading after sleep"
+}
+🍽️ 3. DIET SAMPLE DATA
+{
+  "user": "USER_OBJECT_ID",
+  "mealType": "lunch",
+  "foodItems": ["rice", "fish", "vegetables"],
+  "calories": 600,
+  "carbs": 80,
+  "protein": 30,
+  "fat": 15
+}
+🏃 4. EXERCISE SAMPLE DATA
+{
+  "user": "USER_OBJECT_ID",
+  "type": "walking",
+  "duration": 30,
+  "caloriesBurned": 150,
+  "intensity": "medium"
+}
+🩺 5. DOCTOR SAMPLE DATA
+{
+  "name": "Dr. Sarah Khan",
+  "email": "sarah@example.com",
+  "specialization": "Endocrinologist",
+  "hospitalName": "Dhaka Medical College Hospital",
+  "experienceYears": 8,
+  "contactNumber": "017XXXXXXXX"
+}
+📊 6. REPORT SAMPLE DATA
+{
+  "user": "USER_OBJECT_ID",
+  "averageGlucose": 135,
+  "riskLevel": "medium",
+  "dietSummary": "High carb intake detected",
+  "exerciseSummary": "Moderate activity",
+  "recommendation": "Reduce rice intake and increase walking",
+  "generatedBy": "AI"
+}
+⚠️ IMPORTANT CONCEPT (VERY IMPORTANT)
+
+Whenever you see:
+
+"USER_OBJECT_ID"
+
+You must replace it with real MongoDB ID like:
+
+64f9a1c2e8a7b9d123456789
+
+You get this after creating a user in database.
